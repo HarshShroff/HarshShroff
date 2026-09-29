@@ -13,9 +13,65 @@
 | A percentile bug in a benchmarking tool | wrong in **286 of 4,444** cases on main, **0** on the fix | [my review of guidellm #1194](https://github.com/vllm-project/guidellm/pull/1194) |
 | A scoring engine you can audit | **15** factors, **118+** tests | [Silicon Oracle](https://github.com/HarshShroff/Silicon-Oracle) |
 
-## What I've built
+## Featured Projects
 
-**[MARS](https://github.com/HarshShroff/multi-agent-researcher)** turns a topic into a citation-grounded report using eleven LangGraph agents. The part I care about is the QC agent: it scores every draft and sends weak ones back through a planner instead of shipping them.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [MARS](https://github.com/HarshShroff/multi-agent-researcher)
+*Research reports that send weak drafts back*
+
+Eleven LangGraph agents turn a topic into a citation-grounded report. A QC agent scores every draft and loops weak ones back through a planner instead of shipping them. Runs as a Streamlit app and as an MCP server other clients can call.
+
+**Stack:** Python · LangGraph · Pydantic · MCP · Gemini · Streamlit
+
+`#agents` `#evals` `#mcp`
+
+</td>
+<td width="50%" valign="top">
+
+### [vLLM benchmark](https://github.com/HarshShroff/vllm-inference-benchmark)
+*Testing the vendor claim instead of repeating it*
+
+vLLM's continuous batching against a naive Hugging Face generate loop, one T4, Qwen2.5-3B. Harness, fixed prompts, raw results and plots are in the repo so anyone can rerun it.
+
+**Stack:** Python · vLLM · PyTorch · Colab
+
+`#inference` `#benchmarks`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Bio-Oracle](https://github.com/HarshShroff/Bio-Oracle)
+*A reasoning agent on top of cell segmentation*
+
+Cellpose segments microscopy images, then a PydanticAI agent answers screening questions using outlier statistics over the extracted features. Validated on the public BBBC021 drug-screen dataset.
+
+**Stack:** Python · Cellpose · PydanticAI · Gemini · Docker
+
+`#agents` `#vision` `#biotech`
+
+</td>
+<td width="50%" valign="top">
+
+### [Silicon Oracle](https://github.com/HarshShroff/Silicon-Oracle)
+*Stock analysis with a scoring engine you can audit*
+
+A 15-factor scoring engine, a paper-trading tracker and Gemini-written alerts, with encrypted bring-your-own-key access. Educational, not investment advice.
+
+**Stack:** Flask · PostgreSQL · Supabase · Gemini · pytest
+
+`#fullstack` `#llm`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary>How MARS routes a draft (simplified from <code>graph.py</code>)</summary>
 
 ```mermaid
 flowchart LR
@@ -29,9 +85,9 @@ flowchart LR
     Q -- passes --> F[Formatter]
 ```
 
-*Simplified from the LangGraph wiring in `graph.py`. Runs as a Streamlit app and as an MCP server other clients can call.*
+</details>
 
-**[Bio-Oracle](https://github.com/HarshShroff/Bio-Oracle)** puts a reasoning agent on top of Cellpose segmentation for drug-discovery screens. **[Silicon Oracle](https://github.com/HarshShroff/Silicon-Oracle)** is a stock-analysis platform (educational, not advice). On the edge side I work with offline vision-language models, speech pipelines and NVIDIA Jetson hardware.
+On the edge side I work with offline vision-language models, speech pipelines and NVIDIA Jetson hardware.
 
 ## How I work
 
