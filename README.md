@@ -15,19 +15,21 @@
 
 ## What I've built
 
-**[MARS](https://github.com/HarshShroff/multi-agent-researcher)** turns a topic into a citation-grounded report using eleven LangGraph agents. The part I care about is the QC agent: it scores every draft and sends weak ones back instead of shipping them.
+**[MARS](https://github.com/HarshShroff/multi-agent-researcher)** turns a topic into a citation-grounded report using eleven LangGraph agents. The part I care about is the QC agent: it scores every draft and sends weak ones back through a planner instead of shipping them.
 
 ```mermaid
 flowchart LR
-    T[Topic] --> P[Plan and research]
-    P --> C[Critics in parallel:<br/>gaps, bias, facts]
-    C --> S[Synthesize]
+    T[Topic] --> R[Researcher]
+    R --> A[Analyst]
+    A --> C[Critics in parallel]
+    C --> S[Synthesizer]
     S --> Q{QC score}
-    Q -- weak --> P
-    Q -- passes --> W[Write and verify citations]
+    Q -- weak --> P[Planner]
+    P --> R
+    Q -- passes --> F[Formatter]
 ```
 
-*Simplified. Runs as a Streamlit app and as an MCP server other clients can call.*
+*Simplified from the LangGraph wiring in `graph.py`. Runs as a Streamlit app and as an MCP server other clients can call.*
 
 **[Bio-Oracle](https://github.com/HarshShroff/Bio-Oracle)** puts a reasoning agent on top of Cellpose segmentation for drug-discovery screens. **[Silicon Oracle](https://github.com/HarshShroff/Silicon-Oracle)** is a stock-analysis platform (educational, not advice). On the edge side I work with offline vision-language models, speech pipelines and NVIDIA Jetson hardware.
 
