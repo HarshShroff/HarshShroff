@@ -1,25 +1,36 @@
-# 👋 Hi, I'm Harsh Shroff!
+# Harsh Shroff
 
-I'm an AI/ML Engineer and Data Scientist passionate about building scalable, real-world solutions that bridge the gap between data and impact. Whether it's deploying generative AI, automating workflows, or wrangling massive datasets, I love turning complex problems into elegant code. When I'm not coding, you might find me exploring new tech, mentoring, or searching for the perfect cup of coffee ☕.
+AI/ML engineer focused on agentic systems and on-device vision-language models. I build things that have to work outside a notebook: multi-agent pipelines with quality checks, and offline models running on constrained edge hardware.
 
-## 🌐 Socials:
-[![Portfolio](https://img.shields.io/badge/Portfolio-blue)](https://harshshroff.github.io/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:harshrofff@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/harshroff)
+MS Data Science, University of Maryland, Baltimore County. AWS Certified Machine Learning (valid through April 2028).
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=plastic&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=plastic&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=plastic&logo=r&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=plastic&logo=heroku&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=plastic&logo=apachekafka) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=plastic&logo=Flutter&logoColor=white) ![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=plastic&logo=ros&logoColor=white) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=plastic&logo=snowflake&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=plastic&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=plastic&logo=Amazon%20DynamoDB&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=plastic&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=plastic&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=plastic&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=plastic&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![CloudBees](https://img.shields.io/badge/CloudBees-1997B5&?logo=cloudbees&logoColor=white&style=plastic)
+[Portfolio](https://harshshroff.github.io) · [LinkedIn](https://linkedin.com/in/harshroff) · [Email](mailto:harshrofff@gmail.com)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=HarshShroff&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=HarshShroff&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=HarshShroff&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+## Selected work
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=HarshShroff&theme=dark&no-frame=true&no-bg=false&margin-w=4)
+**[MARS: Multi-Agent Research System](https://github.com/HarshShroff/multi-agent-researcher)**
+An autonomous research pipeline built on LangGraph with 11 specialized agents, a quality-control retry loop, and citation grounding. Ships as a Streamlit app and as an MCP server that other clients can call. Python, LangGraph, Pydantic, MCP.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+**[vLLM inference benchmark](https://github.com/HarshShroff/vllm-inference-benchmark)**
+A controlled comparison of vLLM's continuous batching against a naive Hugging Face generate loop, run on a single T4 with Qwen2.5-3B. Measured roughly a 1.6x to 2.2x throughput gain on matched workloads. The repo includes the harness, fixed prompt set, raw results and plots so the numbers can be reproduced.
 
----
-[![](https://visitcount.itsvg.in/api?id=HarshShroff&icon=1&color=13)](https://visitcount.itsvg.in)
+**[Bio-Oracle](https://github.com/HarshShroff/Bio-Oracle)**
+A neuro-symbolic agent for phenotypic screening in drug discovery. Cellpose handles segmentation and a PydanticAI agent reasons over the extracted cell features. Validated on the public BBBC021 drug-screen dataset; the README reports the segmentation and outlier-detection results.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**[Silicon Oracle](https://github.com/HarshShroff/Silicon-Oracle)**
+A full-stack stock analysis platform with a 15-factor scoring engine, a paper-trading portfolio tracker and Gemini-generated alerts. Flask, PostgreSQL (Supabase), and a pytest suite. Built as an educational tool, not investment advice.
+
+## What I work with
+
+- **Agents and LLM systems:** LangGraph, PydanticAI, MCP, RAG, evaluation and QC loops, Claude and Gemini APIs
+- **Inference and edge:** vLLM, Ollama, Jetson (Orin), on-device VLMs, speech-to-text and text-to-speech pipelines
+- **Computer vision:** YOLOv8, DINOv2, CLIP, Cellpose
+- **Languages and infrastructure:** Python, JavaScript, C, Bash, AWS (Bedrock, Lambda, S3), Docker, PostgreSQL
+
+## Publications
+
+- ITU Kaleidoscope 2021, TinyML
+
+## Open source
+
+I review and contribute to the projects I use, currently in the vLLM ecosystem. AI assistance is disclosed wherever I use it.
