@@ -37,7 +37,7 @@ I build agentic systems and on-device vision-language models, and I measure them
 ### [MARS](https://github.com/HarshShroff/multi-agent-researcher)
 *Research reports that check their own sources*
 
-Eleven LangGraph agents turn a topic into a citation-grounded report. A QC agent scores each draft and sends weak ones back for another pass, and a verifier checks every source. Runs as a Streamlit app and as an MCP server other clients can call.
+Eleven LangGraph agents turn a topic into a citation-grounded report. A QC agent scores each draft and sends weak ones back for another pass, and a citation verifier checks the sources. Runs as a Streamlit app and as an MCP server other clients can call.
 
 **Stack:** Python · LangGraph · Pydantic · MCP · Gemini · Streamlit
 
